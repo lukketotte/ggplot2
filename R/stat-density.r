@@ -3,7 +3,7 @@
 #'   If character, a rule to choose the bandwidth, as listed in
 #'   [stats::bw.nrd()].
 #' @param adjust A multiplicate bandwidth adjustment. This makes it possible
-#'    to adjust the bandwidth while still using the a bandwidth estimator.
+#'    to adjust the bandwidth while still using the bandwidth estimator.
 #'    For example, `adjust = 1/2` means use half of the default bandwidth.
 #' @param kernel Kernel. See list of available kernels in [density()].
 #' @param n number of equally spaced points at which the density is to be

@@ -11,7 +11,7 @@
 #'   using [MASS::bandwidth.nrd()].
 #' @param adjust A multiplicative bandwidth adjustment to be used if 'h' is
 #'    'NULL'. This makes it possible to adjust the bandwidth while still
-#'    using the a bandwidth estimator. For example, `adjust = 1/2` means
+#'    using the bandwidth estimator. For example, `adjust = 1/2` means
 #'    use half of the default bandwidth.
 #' @section Computed variables:
 #' `stat_density_2d()` and `stat_density_2d_filled()` compute different
